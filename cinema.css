@@ -1,0 +1,141 @@
+body {
+  background-color: rgb(194, 177, 177);
+}
+.nav-link {
+  color:rgb(194, 177, 177);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color:white;
+  text-decoration: underline;
+}
+header {
+  margin-top: 70px;
+  width: 100%;
+}
+section {
+  width: 100%;
+}
+/* fonts */
+.teko {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-size: 150px;
+  font-style: normal;
+  text-align: center;
+  color:rgb(109, 56, 56);;
+}
+/* media query */
+@media (max-width: 1024px) {
+  h1.teko {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1.teko {
+    font-size: 40px; 
+  }
+}
+.teko1 {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:80;
+  font-size: 40px;
+  font-style: normal;
+  text-align: center;
+}
+/* media query */
+@media (max-width: 1024px) {
+  .teko1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .teko1 {
+    font-size: 20px; 
+  }
+}
+.mulish {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+}
+/* media query */
+@media (max-width: 1024px) {
+  .mulish {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .mulish {
+    font-size: 20px; 
+  }
+}
+.mulish1 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+/* media query */
+@media (max-width: 1024px) {
+  .mulish1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mulish1 {
+    font-size: 14px; 
+  }
+}
+.image-4-size {
+  height: 400px;
+  width: 270px;
+}
+.genere {
+  color: darkred;
+  text-align: center;
+  font-weight: 700;
+}
+
+footer {
+  margin-top: 70px;
+  width: 100%;
+  background-color:rgb(109, 56, 56);
+  color: white;
+}
+
+.contatti {
+  font-weight: 700;
+  font-size: larger;
+  color: darkred;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline; 
+  color: rgb(183, 149, 0);
+}
+
+.padding {
+  padding-left: 450px;
+}
+
